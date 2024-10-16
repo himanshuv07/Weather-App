@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-main">
+      <article>
+        <aside class="a1 demo">
+          <h1 class="display-data">Weather Data</h1>
+          <hr />
+        </aside>
+        <aside class="a2 demo">
+          <input
+            type="text"
+            name="location"
+            id="location"
+            placeholder="Enter location"
+          />
+          <button type="button" class="btn">Search</button>
+        </aside>
+        <aside class="a3 demo">
+          <img src="./imgweather.webp" alt="Weather icon" class="icon" />
+          <h1 class="display-temp">30°C</h1>
+          <p class="display-location">Location : London</p>
+        </aside>
+        <aside class="a4 demo inactive">
+          <div>
+            <p>Wind Speed :</p>
+            <p class="display-speed">2.5 km/hr</p>
+          </div>
+          <div>
+            <p>Humidity :</p>
+            <p class="display-humidity">18%</p>
+          </div>
+        </aside>
+      </article>
+    </div>
+    <script src="App.js"></script>
+  </body>
+</html>
